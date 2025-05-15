@@ -45,8 +45,8 @@ titles = {
     6: "Franchino e l'incubo falsa laurea",
     7: "Franchino e la passione per TrainVergata",
     8: "Franchino ed il backlog videoludico",
-    9: "",
-    10: "",
+    9: "Franchino e la porta del laboratorio",
+    10: "Franchino e l'arte della selezione strategica",
 }
 
 

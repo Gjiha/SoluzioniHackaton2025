@@ -1,5 +1,6 @@
-# Problema 6  (*Franchino e la falsa laurea*)
-#### Difficoltà: 🔥🔥🔥
+# Problema 6  (*Franchino e l'incubo della falsa laurea*)
+| **Difficoltà** | 🔥🔥🔥 |
+|:--------------:|:--:|
 
 Dopo⁠ ‍⁡⁠ ‍⁢⁠ ‍⁡⁠ ‍⁢⁠ ‍⁡ aver⁡⁠ ‍⁢ passato⁡⁠ ‍⁡ l’intera notte⁡⁠ ‍⁡ a giocare⁢⁠ ‍⁢ a _Portal_ e ad ignorare l'orario delle lezioni⁡⁠ ‍⁡ del giorno dopo, Franchino si addormenta sulla tastiera. Quando riapre gli occhi, si ritrova in una versione distorta della sua città universitaria, un’enorme griglia di strade, corridoi e portali.
 
@@ -18,15 +19,15 @@ Il⁡⁠ ‍⁢ percorso è disseminato di simboli strani, ognuno con un effet
     
 - 🏁 – **End**: l’Aula Magna. Il suo traguardo.
     
-- 🍄 – **Fungo**: lo teletrasporta automaticamente **di +2 celle** nella direzione⁡⁠ ‍⁢ in cui è orientato (↑↓←→).
+- 🍄 – **Fungo**: lo teletrasporta **di +2 celle** in una delle 4 direzioni cardinali.
     
 - 💀 – **Teschio**: casella⁡⁠ ‍⁢ bloccata, **non può** essere attraversata in nessun modo.
     
-- 🍬 – **Caramella**: Franchino è carico⁡⁠ ‍⁢ di zuccheri e può muoversi liberamente nelle **quattro direzioni cardinali** anche se normalmente sarebbe bloccato.
+- 🍬 – **Caramella**: Franchino è carico⁡⁠ ‍⁢ di zuccheri e può muoversi liberamente oltre che nelle **quattro direzioni cardinali** anche **nelle lungo le 4 diagonali**.
     
 - 🪞 – **Specchio**: confonde le coordinate, Franchino si ritrova in **M[y][x]** anziché M[x][y].
     
-- 🠖 , 🠕 , 🠔 , 🠗 – **Freccia direzionale**: lo teletrasporta **fino all’ultima⁡⁠ ‍⁡ cella libera** in quella direzione.
+- 🠖 , 🠕 , 🠔 , 🠗 – **Freccia direzionale**: lo teletrasporta **fino all’ultima⁡⁠ ‍⁡ cella della riga/colonna corrente** nella **direzione puntata dalla freccia**.
     
 - `--` – **Casella normale**: richiede 1 minuto per essere attraversata, si può muovere in direzioni cardinali.
     
@@ -56,3 +57,6 @@ Il⁡⁠ ‍⁢ percorso è disseminato di simboli strani, ognuno con un effet
 ### **Output**
 
 - Un intero: il **numero minimo di minuti** necessari per andare da `S` a `E`, rispettando tutte le regole del sogno.
+
+| [**<**](../05/README.md) | [**Home**](../../README.md) | [**>**](../07/README.md) |
+| :----------------------: | :-------------------------: | :----------------------: |
